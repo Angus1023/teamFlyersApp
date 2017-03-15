@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="flyersApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+
+<nav class="searchForm">
+  <a ui-sref='home'>Home</a>
+  <a ui-sref='about'>About</a>
+  <a ui-sref='players'>Players</a>
+</nav>
+<ui-view></ui-view>
+<!--This is my website!-->
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+<script src="./app.js"></script>
+<script src="./mainCtrl.js"></script>
+<script src="./players/playersCtrl.js"></script>
+<script src="./home/homeCtrl.js"></script>
+<script src="./about/aboutCtrl.js"></script>
+<script src="./services/playersService.js"></script>
+
+
+
+
+<script></script>
+</body>
+</html>

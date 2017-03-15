@@ -1,0 +1,72 @@
+img {
+    width: 350px;
+    border: none;
+    vertical-align: middle;
+
+}
+.clubLogo {
+    width: 80px;
+    border: none;
+    vertical-align: middle;
+    position: relative;
+    top: -27px;
+}
+.logo {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  /*top: -2px;*/
+}
+/*.logo span {*/
+  background: url('https://www-league.nhlstatic.com/builds/site-core/142607b9e14eb10190e9a82c4e6c2d9134ea06c3_1489099646/images/logos/team/current/team-4-dark.svg') no-repeat;
+  /*position: relative;;*/
+  width: 350px;
+  height: 350px;
+}
+.icon {
+    /* display: inline-block; */
+    /* text-align: center; */
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.otherlink {
+    height: 161px;
+    /* min-width: 150px; */
+    /* max-width: 300px; */
+    line-height: 150px;
+    float: left;
+    width: 174px;
+    margin: 22px;
+    box-sizing: border-box;
+    /* position: absolute; */
+}
+.link {
+    width: 76%;
+    font-weight: bold;
+    margin: auto;
+    text-align: left;
+    vertical-align: middle;
+}
+#intro {
+    text-align: justify;
+    vertical-align: top;
+    width: 72%;
+    font-size: 132%;
+    margin: 0 auto;
+    padding: .5em 1em;
+}
+#footer {
+    clear: both;
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+    border-top: .5px solid black;
+
+}
+.footer {
+    word-spacing: 40px;
+}
+.nowrap {
+    white-space: nowrap;
+}

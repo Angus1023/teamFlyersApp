@@ -1,0 +1,19 @@
+
+<h1>Roster</h1>
+<br/>
+<br/>
+<div ng-repeat="player in players">
+
+    <h3><a ui-sref="about({id:player.id})">{{player.name}}</a></h3>
+    <img src="{{player.image}}"/>
+    <h4>{{player.number}}</h4>
+    <h4>{{player.pos}}</h4>
+    <hr align='left' width="50%">
+</div>
+
+
+<style>
+    img {
+        height: 200px;
+    }
+</style>
